@@ -1,2 +1,7 @@
 zuul:
   prefix: /api
+  ignoredServices: '*'
+  routes:
+	  product-service:
+  	path: /middle-service/**
+  	service-id: middle-service
