@@ -3,5 +3,5 @@ zuul:
   ignoredServices: '*'
   routes:
 	greeting-service:
-  	path: /middle-service/**
+  	path: /greeting-service/**
   	service-id: greeting-service
