@@ -1,3 +1,7 @@
 zuul:
   prefix: /api
-  
+  ignoredServices: '*'
+  routes:
+	greeting-service:
+  	path: /products/**
+  	service-id: greeting-service
