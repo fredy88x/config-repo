@@ -3,5 +3,5 @@ zuul:
   ignoredServices: '*'
   routes:
 	greetingss:
-	 url: http://localhost:8085
+  		url: https://localhost:8085
   	
