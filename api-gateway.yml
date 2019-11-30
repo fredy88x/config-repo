@@ -4,4 +4,3 @@ zuul:
   routes:
 	greetingss:
   		url: https://localhost:8085
-  	
