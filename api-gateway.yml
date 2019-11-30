@@ -2,5 +2,5 @@ zuul:
   #prefix: /api
   ignoredServices: '*'
   routes:
-	greetingss:
-  		url: https://localhost:8085
+	middleservice:
+  		url: https://localhost:8090
